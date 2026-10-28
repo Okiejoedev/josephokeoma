@@ -1,0 +1,15 @@
+{
+  "templates": [
+    {
+      "id": "daily-sales-report",
+      "title": "Daily sales report on autopilot",
+      "tag": "Free · n8n template",
+      "description": "Field reps submit sales on a 1-minute Google Form. At 6pm Lagos time, managers get a clean email report with totals in Naira by region, market and product.",
+      "includes": ["Importable n8n workflow (4 nodes)", "Step-by-step setup guide", "Sample data to test it in minutes"],
+      "image": "templates/sales-report-preview.png",
+      "imageAlt": "Example report email showing total sales of 927,500 naira, units sold, and tables by market and product, using made-up data",
+      "file": "templates/daily-sales-report-n8n.zip"
+    }
+  ],
+  "comingNext": ["Fake-alert payment checker", "Free PAYE calculator (2026 bands)", "Aso-ebi collector"]
+}

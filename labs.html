@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Labs | Joseph Okeoma</title>
+<meta name="description" content="Experiments by Joseph Okeoma in education, health and human–AI interaction: an interactive 3D classroom, Wristside and Afterclass.">
+<meta name="theme-color" content="#0f1f3d">
+<meta property="og:title" content="Joseph Okeoma | AI for African businesses">
+<meta property="og:description" content="AI agents and automations for Nigerian businesses. Free templates and a free 20-minute call.">
+<meta property="og:image" content="og-image.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1f3d'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' text-anchor='middle' fill='%23f5b942'%3EJO%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Joseph Okeoma, home">Joseph <span>Okeoma</span></a>
+    <button type="button" class="menu-btn" aria-expanded="false" aria-controls="navlist">Menu</button>
+    <nav aria-label="Main">
+      <ul id="navlist">
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#work">Work</a></li>
+        <li><a href="index.html#templates">Templates</a></li>
+        <li><a href="index.html#ebooks">Ebooks</a></li>
+        <li><a href="labs.html" aria-current="page">Labs</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li class="keep"><a class="cta wa" href="https://wa.me/2348101892632" data-msg="call">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="dark page-hero" aria-labelledby="ph">
+  <div class="wrap">
+    <p class="tag">Labs</p>
+    <h1 id="ph">Where I explore <span>what AI can do next</span></h1>
+    <p>Experiments in education, health and how people work with AI. Open them in your browser and try them. No sign-in needed.</p>
+  </div>
+</section>
+<section aria-labelledby="lp-h" style="padding-top:56px">
+  <div class="wrap">
+    <p class="eyebrow">Projects</p>
+    <h2 id="lp-h">Try them in your browser</h2>
+    <div data-projects="labs" data-headings="off"><p class="sub">Loading…</p></div>
+    <p class="sub" style="margin-top:28px">More projects are added here as I build them.</p>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <p>© 2026 Joseph Okeoma · Lagos, Nigeria</p>
+    <ul aria-label="Links">
+      <li><a href="https://www.linkedin.com/in/josephokeoma" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://www.instagram.com/josephokeoma" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://github.com/Okiejoedev" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:josephokeoma07@gmail.com">Email</a></li>
+      <li><a href="labs.html">Labs</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="index.html#privacy">Privacy</a></li>
+    </ul>
+  </div>
+</footer>
+<script>
+const PHONE='2348101892632';
+document.querySelectorAll('.wa').forEach(a=>{a.href='https://wa.me/'+PHONE+'?text='+encodeURIComponent("Hi Joseph, I found you through your website. I'd like to book a free 20-minute call about AI for my business.");a.target='_blank';a.rel='noopener';});
+/* mobile menu */
+(function(){const b=document.querySelector('.menu-btn'),l=document.getElementById('navlist');if(!b)return;
+b.addEventListener('click',()=>{const o=l.classList.toggle('open');b.setAttribute('aria-expanded',o);b.textContent=o?'Close':'Menu';});
+l.addEventListener('click',e=>{if(e.target.closest('a')){l.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='Menu';}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&l.classList.contains('open')){l.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='Menu';b.focus();}});})();
+</script>
+<script src="projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,446 @@
+{
+  "categories": [
+    {
+      "id": "business-apps",
+      "title": "Business apps",
+      "intro": "Tools that solve one everyday problem for Nigerian businesses. New ones are added as I build them in public."
+    },
+    {
+      "id": "automations",
+      "title": "Business automations",
+      "intro": "n8n workflows running real business processes: sales, HR, operations, marketing and support."
+    },
+    {
+      "id": "ready",
+      "title": "Automations I can set up for your business",
+      "intro": "Pick the one that hurts most. Each one is set up for your business, tested with your team, and handed over with a short video guide."
+    },
+    {
+      "id": "websites",
+      "title": "Websites I've built",
+      "intro": "Business websites built for clients."
+    },
+    {
+      "id": "labs",
+      "title": "Labs",
+      "intro": "Open them in your browser and try them. No sign-in needed."
+    },
+    {
+      "id": "research",
+      "title": "Research and publications",
+      "intro": "How people learn with, use and trust AI, and how deep learning can work in health, education and transport."
+    }
+  ],
+  "projects": [
+    {
+      "category": "business-apps",
+      "title": "Fake-alert payment checker",
+      "description": "Confirms a transfer has actually landed before your staff release goods, and tells them on WhatsApp.",
+      "tags": [
+        "WhatsApp",
+        "Paystack",
+        "n8n"
+      ],
+      "links": [],
+      "note": "Building now · follow along on LinkedIn"
+    },
+    {
+      "category": "business-apps",
+      "title": "WhatsApp order agent",
+      "description": "Takes orders on WhatsApp, checks stock, quotes in Naira and logs every sale, with a person taking over when needed.",
+      "tags": [
+        "AI agent",
+        "WhatsApp"
+      ],
+      "links": [],
+      "note": "Coming in November"
+    },
+    {
+      "category": "labs",
+      "title": "Interactive 3D Classroom",
+      "description": "A walkable 3D campus where lecturers teach live and students join with a class code. Slides and videos on the board stay in sync for every student.",
+      "image": "assets/classroom-640.webp",
+      "tags": [
+        "three.js",
+        "Supabase Realtime",
+        "Education"
+      ],
+      "links": [
+        {
+          "label": "Open the demo",
+          "url": "https://okiejoedev.github.io/Stemhub/classroom/"
+        }
+      ]
+    },
+    {
+      "category": "labs",
+      "title": "Wristside",
+      "description": "Ask plain questions about your own wearable health data and get layered answers you can check, with a built-in user study mode.",
+      "image": "assets/wristside-640.webp",
+      "tags": [
+        "Human–AI interaction",
+        "Health informatics"
+      ],
+      "links": [
+        {
+          "label": "Open the demo",
+          "url": "https://okiejoedev.github.io/Stemhub/wristside/"
+        }
+      ]
+    },
+    {
+      "category": "labs",
+      "title": "Afterclass",
+      "description": "Turns lecture PDFs and notes into quizzes, then runs them as a live classroom game or a self-paced assignment.",
+      "image": "assets/afterclass-640.webp",
+      "tags": [
+        "Claude API",
+        "Supabase",
+        "Education"
+      ],
+      "links": [],
+      "note": "Live demo coming soon"
+    },
+    {
+      "category": "ready",
+      "title": "Debt and payment reminders",
+      "description": "Customers who owe you get polite WhatsApp or SMS reminders on schedule, and you see who has paid without chasing anyone.",
+      "tags": [
+        "WhatsApp",
+        "Google Sheets",
+        "Retail"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Instant price and availability replies",
+      "description": "Customers asking \"how much?\" on Instagram or WhatsApp get the price, photos and how to pay in seconds, even at midnight.",
+      "tags": [
+        "Instagram",
+        "WhatsApp",
+        "Sales"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "New lead follow-up",
+      "description": "Every enquiry from your website, Instagram or ads gets a reply within minutes and a follow-up after 2 days if they go quiet.",
+      "tags": [
+        "Leads",
+        "Sales",
+        "CRM"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Tax-ready records",
+      "description": "Every sale and expense is recorded neatly as it happens, so your books are ready for your accountant and the new tax rules, not a year-end panic.",
+      "tags": [
+        "Bookkeeping",
+        "Tax"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Weekly business snapshot",
+      "description": "Every Monday you get one message: last week's sales, expenses, top products and money owed to you.",
+      "tags": [
+        "Reporting",
+        "Owners"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Low-stock alerts",
+      "description": "When an item drops below your set level, you get a message with what to reorder and from which supplier.",
+      "tags": [
+        "Inventory",
+        "WhatsApp"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Receipt and invoice reader",
+      "description": "Snap a receipt or supplier invoice; the amount, date and vendor go straight into your books. No more typing.",
+      "tags": [
+        "AI",
+        "Bookkeeping"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Appointment booking and reminders",
+      "description": "Clients book a slot online and get reminders the day before, so fewer people forget. Good for salons, clinics and consultants.",
+      "tags": [
+        "Bookings",
+        "WhatsApp",
+        "Services"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Delivery updates for customers",
+      "description": "Customers get a message when their order is packed, out for delivery and delivered, so fewer \"where is my order?\" calls.",
+      "tags": [
+        "Logistics",
+        "E-commerce"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "School fee reminders and receipts",
+      "description": "Parents get fee reminders before the deadline and a receipt the moment payment is confirmed. Bursars see who is outstanding.",
+      "tags": [
+        "Schools",
+        "WhatsApp"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "ready",
+      "title": "Payroll and PAYE helper",
+      "description": "Works out each staff member's pay and a PAYE estimate under the Nigeria Tax Act 2026 bands, and drafts payslips for your accountant to check.",
+      "tags": [
+        "HR",
+        "Tax",
+        "Payroll"
+      ],
+      "links": [],
+      "note": "Ready to set up · ask for a demo"
+    },
+    {
+      "category": "automations",
+      "title": "AI recruitment screening",
+      "description": "Scores every applicant against the role with AI, builds a shortlist and emails candidates.",
+      "tags": [
+        "n8n",
+        "OpenAI",
+        "HR"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "AI social media content",
+      "description": "Finds timely topics and drafts platform-specific posts for Facebook, Instagram and LinkedIn.",
+      "tags": [
+        "n8n",
+        "OpenAI",
+        "Marketing"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "CRM chatbot",
+      "description": "Answers common customer questions straight away inside the CRM conversation.",
+      "tags": [
+        "n8n",
+        "Webhooks",
+        "Support"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "Inbox summariser",
+      "description": "Reads incoming email and sends one short AI-written digest, so nothing important gets missed.",
+      "tags": [
+        "n8n",
+        "Gmail",
+        "AI"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "Expense tracking",
+      "description": "Collects expenses from a form, sorts them into categories and emails a weekly summary.",
+      "tags": [
+        "n8n",
+        "Google Sheets"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "Sales target tracker",
+      "description": "Compares actual sales with targets and sends a progress report every cycle.",
+      "tags": [
+        "n8n",
+        "Google Sheets"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "Staff attendance reporting",
+      "description": "Collects attendance daily and emails a ready-made report.",
+      "tags": [
+        "n8n",
+        "Google Forms"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "Student registration",
+      "description": "Records each registration and sends the student a confirmation with next steps.",
+      "tags": [
+        "n8n",
+        "Education"
+      ],
+      "links": []
+    },
+    {
+      "category": "automations",
+      "title": "Daily sales reporting",
+      "description": "Field reps submit sales on a form; managers get totals in Naira by region, market and product at closing time.",
+      "tags": [
+        "n8n",
+        "Google Sheets",
+        "Gmail"
+      ],
+      "links": [
+        {
+          "label": "Get the free template",
+          "url": "index.html#templates"
+        }
+      ]
+    },
+    {
+      "category": "websites",
+      "title": "Diamond Giant Consulting",
+      "description": "Business website for a consulting firm.",
+      "tags": [
+        "Web design",
+        "Client project"
+      ],
+      "links": [
+        {
+          "label": "Visit the site",
+          "url": "https://diamondgiantconsulting1.com/"
+        }
+      ]
+    },
+    {
+      "category": "websites",
+      "title": "Nigeria Youth Society Development",
+      "description": "Website for a youth and community development organisation.",
+      "tags": [
+        "Web design",
+        "Client project"
+      ],
+      "links": [
+        {
+          "label": "Visit the site",
+          "url": "http://nigeriayouthsocietydevelopment.com/"
+        }
+      ]
+    },
+    {
+      "category": "research",
+      "title": "Real-time speed estimation for autonomous vehicles",
+      "meta": "Current · Master's research, Miva Open University",
+      "description": "A deep learning framework for estimating the speed of surrounding vehicles in real time.",
+      "tags": [
+        "Deep learning",
+        "Computer vision"
+      ],
+      "links": []
+    },
+    {
+      "category": "research",
+      "title": "Breast cancer detection and classification",
+      "meta": "Federal University Oye-Ekiti",
+      "description": "Led a deep learning team working with over 100,000 mammographic images, reaching 95% model accuracy.",
+      "tags": [
+        "TensorFlow",
+        "PyTorch",
+        "Medical imaging"
+      ],
+      "links": []
+    },
+    {
+      "category": "research",
+      "title": "AI-Driven STEM Education for Public Health in Sustainable Agriculture",
+      "meta": "World Journal of Advanced Research and Reviews, 2025 · First author",
+      "description": "A review of how AI-driven STEM education can support public health in sustainable agriculture.",
+      "tags": [
+        "Publication"
+      ],
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "https://doi.org/10.30574/wjarr.2025.28.1.3442"
+        }
+      ]
+    },
+    {
+      "category": "research",
+      "title": "AI-Enhanced Differentiated Learning in Elementary STEM",
+      "meta": "World Journal of Advanced Research and Reviews, 2025 · Co-author",
+      "description": "Promoting mental health, psychological resilience and equity through AI-enhanced differentiated learning.",
+      "tags": [
+        "Publication"
+      ],
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "https://doi.org/10.30574/wjarr.2025.28.2.3697"
+        }
+      ]
+    },
+    {
+      "category": "research",
+      "title": "Adopting AI in Small and Medium Enterprises",
+      "meta": "Publication",
+      "description": "Administrative challenges and strategic pathways for effective AI implementation in SMEs.",
+      "tags": [
+        "Publication",
+        "SMEs"
+      ],
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "http://dx.doi.org/10.22178/pos.123-10"
+        }
+      ]
+    },
+    {
+      "category": "research",
+      "title": "Generative AI in Marketing Communications",
+      "meta": "Publication",
+      "description": "Implications for brand distinctiveness, consumer trust and regulatory disclosure.",
+      "tags": [
+        "Publication",
+        "Marketing"
+      ],
+      "links": [
+        {
+          "label": "Read the paper",
+          "url": "https://doi.org/10.5281/zenodo.17749967"
+        }
+      ]
+    }
+  ]
+}
